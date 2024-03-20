@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="467.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerWyszkiwanieSprzetu">
+   <children>
+      <TableView fx:id="sprzetTableView" layoutX="42.0" layoutY="119.0" prefHeight="261.0" prefWidth="705.0">
+        <columns>
+          <TableColumn fx:id="kategoria" prefWidth="182.39995956420898" text="kategoria" />
+          <TableColumn fx:id="nazwa" prefWidth="173.6000518798828" text="nazwa" />
+            <TableColumn fx:id="cena_wypozyczenia" prefWidth="163.199951171875" text="cena wypożyczenia" />
+            <TableColumn fx:id="promocja" prefWidth="112.0" text="promocja" />
+            <TableColumn fx:id="ID" prefWidth="78.39996337890625" text="ID" />
+        </columns>
+      </TableView>
+      <Button layoutX="349.0" layoutY="405.0" mnemonicParsing="false" onAction="#doMenu" text="wróć do menu" />
+      <TextField fx:id="kategoriaTextField" layoutX="215.0" layoutY="57.0" prefHeight="26.0" prefWidth="165.0" promptText="kategoria" />
+      <TextField fx:id="nazwaTextField" layoutX="407.0" layoutY="57.0" prefHeight="26.0" prefWidth="165.0" promptText="nazwa" />
+      <Label fx:id="wyszukiwanieLabel" layoutX="357.0" layoutY="23.0" text="Wyszukiwanie" />
+   </children>
+</AnchorPane>

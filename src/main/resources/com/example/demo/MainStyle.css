@@ -1,0 +1,29 @@
+.root{
+    -fx-background-color: #474444;
+}
+
+.label{
+    -fx-font-family: "Arial";
+    -fx-text-fill: "white";
+}
+
+.button{
+    -fx-background-color: #8f8f8f;
+    -fx-text-fill: "black";
+    -fx-border: none;
+}
+
+.button:hover{
+    -fx-background-color: #787878;
+    -fx-border: none
+}
+
+.button:pressed{
+    -fx-background-color: #666666;
+    -fx-border: none;
+}
+
+.text-field{
+    -fx-background-color: #8f8f8f;
+    -fx-border-radius: 2px;
+}

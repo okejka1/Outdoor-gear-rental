@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="513.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerDodawanieZwrotow">
+   <children>
+      <Button fx:id="wrocDoMenuButton" layoutX="245.0" layoutY="453.0" mnemonicParsing="false" onAction="#doMenu" prefHeight="26.0" prefWidth="138.0" text="wróć do menu" />
+      <Button fx:id="zwrocWypozyczenieButton" layoutX="472.0" layoutY="453.0" mnemonicParsing="false" onAction="#zwrocWypozyczenie" prefHeight="26.0" prefWidth="137.0" text="zwróć" />
+      <TableView fx:id="wypozyczeniaTableView" layoutX="58.0" layoutY="44.0" prefHeight="376.0" prefWidth="740.0">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="38.399959564208984" text="ID" />
+          <TableColumn fx:id="data_wypozyczenia" prefWidth="112.00003051757812" text="data wypożyczenia" />
+            <TableColumn fx:id="data_oddania" prefWidth="105.5999755859375" text="data oddania" />
+            <TableColumn fx:id="imie" prefWidth="108.0" text="imie klienta" />
+            <TableColumn fx:id="nazwisko" prefWidth="135.99996948242188" text="nazwisko klienta" />
+            <TableColumn fx:id="nr_telefonu" prefWidth="135.20001220703125" text="numer tel" />
+            <TableColumn fx:id="empId" prefWidth="104.7999267578125" text="ID pracownika" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

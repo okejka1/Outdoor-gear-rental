@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerZwrot">
+   <children>
+      <Label fx:id="edycjaZwrotowLabel" layoutX="212.0" layoutY="62.0" text="Edycja katalogu zwrotów">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="dodawanieZwrotowButton" layoutX="134.0" layoutY="193.0" mnemonicParsing="false" onAction="#dodajZwroty" prefHeight="50.0" prefWidth="155.0" text="Dodawanie zwrotów" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="edycjaZwrotowMenuButton" layoutX="266.0" layoutY="374.0" mnemonicParsing="false" onAction="#doMenu" prefHeight="50.0" prefWidth="155.0" text="Wróć do menu" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="wyszukiwanieZwrotowButton" layoutX="396.0" layoutY="193.0" mnemonicParsing="false" onAction="#wyszukajZwroty" prefHeight="50.0" prefWidth="155.0" text="Wyszukiwanie zwrotów" />
+   </children>
+</AnchorPane>

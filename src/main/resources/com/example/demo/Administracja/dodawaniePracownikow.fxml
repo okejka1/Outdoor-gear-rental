@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerDodawaniePracownikow">
+   <children>
+      <Label fx:id="dodawanieKlientowLabel" layoutX="284.0" layoutY="52.0" text="Dodawanie pracowników">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="doMenuButton" layoutX="367.0" layoutY="429.0" mnemonicParsing="false" onAction="#doMenu" prefHeight="35.0" prefWidth="99.0" text="Wróć do menu" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="dodajPracownikaButton" layoutX="649.0" layoutY="404.0" mnemonicParsing="false" onAction="#dodajPracownika" prefHeight="35.0" prefWidth="180.0" text="Zatwierdź dane pracownika" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="imieLabel" layoutX="79.0" layoutY="128.0" text="Imię" />
+      <Label fx:id="nazwiskoLabel" layoutX="76.0" layoutY="181.0" text="Nazwisko" />
+      <Label fx:id="telLabel" layoutX="78.0" layoutY="237.0" text="Nr telefonu" />
+      <Label fx:id="mailLabel" layoutX="76.0" layoutY="296.0" text="Email" />
+      <Label fx:id="adresLabel" layoutX="317.0" layoutY="128.0" text="Ulica" />
+      <Label fx:id="nrMieszkaniaLabel" layoutX="316.0" layoutY="183.0" text="Nr mieszkania" />
+      <Label fx:id="miastoLabel" layoutX="318.0" layoutY="237.0" text="Miasto" />
+      <Label fx:id="kodPocztowyLabel" layoutX="318.0" layoutY="296.0" text="Kod pocztowy" />
+      <Label fx:id="nrDowoduLabel" layoutX="468.0" layoutY="296.0" text="Nr dowodu tożsamości" />
+      <TextField fx:id="imieTextField" layoutX="77.0" layoutY="146.0" />
+      <TextField fx:id="nazwiskoTextField" layoutX="77.0" layoutY="199.0" />
+      <TextField fx:id="telefonTextField" layoutX="77.0" layoutY="260.0" />
+      <TextField fx:id="mailTextField" layoutX="77.0" layoutY="318.0" />
+      <TextField fx:id="adresTextField" layoutX="318.0" layoutY="147.0" prefHeight="26.0" prefWidth="274.0" />
+      <TextField fx:id="mieszkanieTextField" layoutX="318.0" layoutY="200.0" prefHeight="26.0" prefWidth="99.0" />
+      <TextField fx:id="miastoTextField" layoutX="318.0" layoutY="259.0" prefHeight="26.0" prefWidth="273.0" />
+      <TextField fx:id="kodPocztowyTextField" layoutX="318.0" layoutY="317.0" prefHeight="26.0" prefWidth="99.0" />
+      <TextField fx:id="numerDowoduTextField" layoutX="442.0" layoutY="318.0" />
+      <TextField fx:id="domTextField" layoutX="442.0" layoutY="200.0" prefHeight="26.0" prefWidth="150.0" />
+      <Label fx:id="nrDomuLabel" layoutX="542.0" layoutY="183.0" text="Nr domu" />
+      <TextField fx:id="loginTextField" layoutX="665.0" layoutY="199.0" />
+      <TextField fx:id="hasloTextField" layoutX="665.0" layoutY="260.0" />
+      <Label fx:id="loginLabel" layoutX="665.0" layoutY="174.0" text="Login" />
+      <Label fx:id="hasloLabel" layoutX="666.0" layoutY="237.0" text="Hasło" />
+   </children>
+</AnchorPane>

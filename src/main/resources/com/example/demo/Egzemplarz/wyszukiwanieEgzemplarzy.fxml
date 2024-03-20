@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="611.0" prefWidth="1128.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerWyszukwianieEgzemplarzy">
+   <children>
+      <TableView fx:id="egzemplarzTableView" layoutX="63.0" layoutY="106.0" prefHeight="417.0" prefWidth="1002.0">
+         <columns>
+            <TableColumn fx:id="ID" prefWidth="45.60000228881836" text="ID" />
+            <TableColumn fx:id="nazwa_sprzetu" prefWidth="173.59999084472656" text="nazwa sprzętu" />
+            <TableColumn fx:id="kategoria" prefWidth="136.0" text="kategoria" />
+            <TableColumn fx:id="cena" prefWidth="102.4000244140625" text="cena" />
+            <TableColumn fx:id="promocja" minWidth="0.0" prefWidth="120.79998779296875" text="promocja" />
+            <TableColumn fx:id="kolor" minWidth="0.0" prefWidth="130.39996337890625" text="kolor" />
+            <TableColumn fx:id="rozmiar" minWidth="0.0" prefWidth="142.39996337890625" text="rozmiar" />
+            <TableColumn fx:id="status" prefWidth="152.79986572265625" text="status" />
+         </columns>
+      </TableView>
+      <Button fx:id="powrotDoMenu" layoutX="518.0" layoutY="553.0" mnemonicParsing="false" onAction="#doMenu" text="wróć do menu" />
+      <TextField fx:id="filterTextBox" layoutX="453.0" layoutY="57.0" prefHeight="26.0" prefWidth="222.0" promptText="nazwa" />
+      <Label fx:id="searchLabel" layoutX="527.0" layoutY="28.0" text="Wyszukiwanie" />
+   </children>
+</AnchorPane>

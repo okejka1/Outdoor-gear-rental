@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ControllerClient">
+   <children>
+      <Label fx:id="edycjaKlientowLabel" layoutX="213.0" layoutY="63.0" text="Edycja katalogu klientów">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="dodawanieKlientaButton" layoutX="134.0" layoutY="193.0" mnemonicParsing="false" onAction="#doDodawaniaKlienta" prefHeight="50.0" prefWidth="155.0" text="Dodawanie klienta" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="edycjaKlientMenuButton" layoutX="266.0" layoutY="374.0" mnemonicParsing="false" onAction="#doMenu" prefHeight="50.0" prefWidth="155.0" text="Wróć do menu" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="wyszukiwanieKlientowButton" layoutX="396.0" layoutY="193.0" mnemonicParsing="false" onAction="#wyszukajKlientow" prefHeight="50.0" prefWidth="155.0" text="Wyszukiwanie klientów" />
+   </children>
+</AnchorPane>
